@@ -1,0 +1,191 @@
+* {
+  box-sizing: border-box;
+}
+
+
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width:200px;
+  min-height: 300px;
+}
+
+body{
+background-color:black;
+background-image: url(pics/wpHome.gif);
+}
+
+
+#bubbles{
+  background-color:pink;
+background-image: url(pics/bubbles.gif);
+}
+
+
+#relax{
+  background-color:black;
+background-image: url(donatep/76YS.gif);
+}
+
+
+.floating { 
+    animation-name: floating;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    margin-left: 30px;
+    margin-top: 20px;
+    color: white; 
+    text-align: center;
+    font-size: 60px;
+}
+@keyframes floating {
+    
+    0% { transform: translate(0,  0px); }
+    50%  { transform: translate(0, 15px); }
+    100%   { transform: translate(0, -0px); }   
+}
+
+
+.rtexts{
+  margin-left: 130px;
+  margin-right: 130px;
+  color:white;
+  font-size: 20px;
+  text-align: center;
+}
+
+
+.column {
+  float: left;
+  width: 20%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.planets {
+  margin: 50px;
+  text-align: center;
+   margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  height: auto;
+}
+
+
+.planets:hover {
+    opacity:0.8;
+    cursor: pointer;  
+}
+
+.ptext{
+  color:white;
+ font-size: 110%;
+}
+
+#fleft{
+  float: left;
+}
+#fright{
+  float:right;
+}
+
+#back{
+float: left;
+cursor: pointer;
+}
+#forward{
+float: right;
+cursor: pointer;
+}
+#back:hover {
+    opacity:0.6;
+}
+#forward:hover {
+    opacity:0.6;
+}
+.musicText{
+  text-align: center;
+  color:white;
+    font-size: 60%;
+}
+
+#myVideo{
+  visibility: hidden;
+}
+.flex-container {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: center;
+
+}
+
+.flex-container > div {
+  width: 300px;
+  margin: 0px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.bodyTexts{
+  margin: 50px;
+  text-align: center;
+   margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+h2{
+  color: white;
+  font-size: 35px;
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+  margin-left: 145px;
+  margin-right: 145px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+font-family: 'Fredoka One';
+}
+
+h3{
+  color: white;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+  margin-left: 25px;
+  margin-right: 90px;
+  padding-top: 10px;
+
+font-family: 'Fredoka One';
+}
+
+p{
+  color: white;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  font-size: 20px; 
+
+}
+
+main { 
+  padding-top: 15px;      
+  padding-bottom: 60px;
+  padding-left: 100px;
+  padding-right: 100px;    
+}
